@@ -22,6 +22,8 @@ mark.calculateBMI();
 console.log(john.name+": "+john.bmi);
 console.log(mark.name+": "+mark.bmi);
 
+breakLine();
+
 compareBMI(john, mark);
 
 function compareBMI(personOne, personTwo){
@@ -32,4 +34,8 @@ function compareBMI(personOne, personTwo){
 	}else{
 		console.log(personTwo.name+" has more bmi than "+personOne.name);
 	}
+}
+
+function breakLine(){
+	console.log("\n");
 }

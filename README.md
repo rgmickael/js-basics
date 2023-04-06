@@ -20,3 +20,6 @@ node scriptXX.js
 
 #### script04.js
 - Objects
+
+#### script04.js
+- Loops

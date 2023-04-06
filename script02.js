@@ -6,6 +6,10 @@ var averageScoreLuke = lukeTeamScores / 3;
 var averageScoreMatt = mattTeamScores / 3;
 var averageScoreMary = maryTeamScores / 3;
 
+console.log("Average score Luke: "+averageScoreLuke);
+console.log("Average score Matt: "+averageScoreMatt);
+console.log("Average score Mary: "+averageScoreMary);
+
 //only Luke and Matt
 
 /*if ( averageScoreMatt > averageScoreLuke){
@@ -15,6 +19,8 @@ var averageScoreMary = maryTeamScores / 3;
 }else{
 	console.log("Luke's team win by "+ averageScoreLuke+" points");
 }*/
+
+console.log("\n");
 
 //all three
 

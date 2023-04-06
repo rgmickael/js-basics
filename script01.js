@@ -10,6 +10,11 @@ var markHeight = 172;
 var johnBMI = johnMass / (johnHeight**2);
 var markBMI = markMass / (markHeight**2);
 
+console.log("John BMI: "+johnBMI);
+console.log("Mark BMI: "+markBMI);
+
+console.log("\n");
+
 var isJohnBMIGreater = johnBMI > markBMI; 
 
 console.log("is John BMI greater than Mark? " + isJohnBMIGreater);
